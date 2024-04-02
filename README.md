@@ -1,5 +1,5 @@
 # WinDocky
-Dock di icone in stile Apple.
+E' sbarcato WinDocky, dock di icone in stile Apple.
 
 ![alt text](https://github.com/Nhor2/WinDocky/blob/main/WinDocky.png?raw=true)
 
