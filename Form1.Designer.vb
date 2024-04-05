@@ -43,6 +43,21 @@ Partial Class WinDocky
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.LabelPic1 = New System.Windows.Forms.Label()
+        Me.LabelPic2 = New System.Windows.Forms.Label()
+        Me.LabelPic3 = New System.Windows.Forms.Label()
+        Me.LabelPic4 = New System.Windows.Forms.Label()
+        Me.LabelPic5 = New System.Windows.Forms.Label()
+        Me.LabelPic6 = New System.Windows.Forms.Label()
+        Me.LabelPic7 = New System.Windows.Forms.Label()
+        Me.LabelPic8 = New System.Windows.Forms.Label()
+        Me.LabelPic9 = New System.Windows.Forms.Label()
+        Me.LabelPic10 = New System.Windows.Forms.Label()
+        Me.LabelPic11 = New System.Windows.Forms.Label()
+        Me.LabelPic12 = New System.Windows.Forms.Label()
+        Me.LabelPic13 = New System.Windows.Forms.Label()
+        Me.LabelPic14 = New System.Windows.Forms.Label()
+        Me.LabelPic15 = New System.Windows.Forms.Label()
         Me.window_header.SuspendLayout()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -81,6 +96,21 @@ Partial Class WinDocky
         Me.window_header.Controls.Add(Me.PictureBox2)
         Me.window_header.Controls.Add(Me.PictureBox1)
         Me.window_header.Controls.Add(Me.Panel1)
+        Me.window_header.Controls.Add(Me.LabelPic15)
+        Me.window_header.Controls.Add(Me.LabelPic14)
+        Me.window_header.Controls.Add(Me.LabelPic13)
+        Me.window_header.Controls.Add(Me.LabelPic12)
+        Me.window_header.Controls.Add(Me.LabelPic11)
+        Me.window_header.Controls.Add(Me.LabelPic10)
+        Me.window_header.Controls.Add(Me.LabelPic9)
+        Me.window_header.Controls.Add(Me.LabelPic8)
+        Me.window_header.Controls.Add(Me.LabelPic7)
+        Me.window_header.Controls.Add(Me.LabelPic6)
+        Me.window_header.Controls.Add(Me.LabelPic5)
+        Me.window_header.Controls.Add(Me.LabelPic4)
+        Me.window_header.Controls.Add(Me.LabelPic3)
+        Me.window_header.Controls.Add(Me.LabelPic2)
+        Me.window_header.Controls.Add(Me.LabelPic1)
         Me.window_header.Dock = System.Windows.Forms.DockStyle.Top
         Me.window_header.Location = New System.Drawing.Point(0, 0)
         Me.window_header.Name = "window_header"
@@ -246,8 +276,8 @@ Partial Class WinDocky
         '
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Cyan
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Turquoise
+        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.Black
@@ -261,6 +291,112 @@ Partial Class WinDocky
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
+        'LabelPic1
+        '
+        Me.LabelPic1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.LabelPic1.Location = New System.Drawing.Point(75, 0)
+        Me.LabelPic1.Name = "LabelPic1"
+        Me.LabelPic1.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic1.TabIndex = 18
+        '
+        'LabelPic2
+        '
+        Me.LabelPic2.Location = New System.Drawing.Point(127, 0)
+        Me.LabelPic2.Name = "LabelPic2"
+        Me.LabelPic2.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic2.TabIndex = 19
+        '
+        'LabelPic3
+        '
+        Me.LabelPic3.Location = New System.Drawing.Point(179, 0)
+        Me.LabelPic3.Name = "LabelPic3"
+        Me.LabelPic3.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic3.TabIndex = 20
+        '
+        'LabelPic4
+        '
+        Me.LabelPic4.Location = New System.Drawing.Point(231, 0)
+        Me.LabelPic4.Name = "LabelPic4"
+        Me.LabelPic4.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic4.TabIndex = 21
+        '
+        'LabelPic5
+        '
+        Me.LabelPic5.Location = New System.Drawing.Point(283, 0)
+        Me.LabelPic5.Name = "LabelPic5"
+        Me.LabelPic5.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic5.TabIndex = 22
+        '
+        'LabelPic6
+        '
+        Me.LabelPic6.Location = New System.Drawing.Point(335, 0)
+        Me.LabelPic6.Name = "LabelPic6"
+        Me.LabelPic6.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic6.TabIndex = 23
+        '
+        'LabelPic7
+        '
+        Me.LabelPic7.Location = New System.Drawing.Point(387, 0)
+        Me.LabelPic7.Name = "LabelPic7"
+        Me.LabelPic7.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic7.TabIndex = 24
+        '
+        'LabelPic8
+        '
+        Me.LabelPic8.Location = New System.Drawing.Point(439, 0)
+        Me.LabelPic8.Name = "LabelPic8"
+        Me.LabelPic8.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic8.TabIndex = 25
+        '
+        'LabelPic9
+        '
+        Me.LabelPic9.Location = New System.Drawing.Point(491, 0)
+        Me.LabelPic9.Name = "LabelPic9"
+        Me.LabelPic9.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic9.TabIndex = 26
+        '
+        'LabelPic10
+        '
+        Me.LabelPic10.Location = New System.Drawing.Point(543, 0)
+        Me.LabelPic10.Name = "LabelPic10"
+        Me.LabelPic10.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic10.TabIndex = 27
+        '
+        'LabelPic11
+        '
+        Me.LabelPic11.Location = New System.Drawing.Point(595, 0)
+        Me.LabelPic11.Name = "LabelPic11"
+        Me.LabelPic11.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic11.TabIndex = 28
+        '
+        'LabelPic12
+        '
+        Me.LabelPic12.Location = New System.Drawing.Point(647, 0)
+        Me.LabelPic12.Name = "LabelPic12"
+        Me.LabelPic12.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic12.TabIndex = 29
+        '
+        'LabelPic13
+        '
+        Me.LabelPic13.Location = New System.Drawing.Point(699, 0)
+        Me.LabelPic13.Name = "LabelPic13"
+        Me.LabelPic13.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic13.TabIndex = 30
+        '
+        'LabelPic14
+        '
+        Me.LabelPic14.Location = New System.Drawing.Point(751, 0)
+        Me.LabelPic14.Name = "LabelPic14"
+        Me.LabelPic14.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic14.TabIndex = 31
+        '
+        'LabelPic15
+        '
+        Me.LabelPic15.Location = New System.Drawing.Point(906, 0)
+        Me.LabelPic15.Name = "LabelPic15"
+        Me.LabelPic15.Size = New System.Drawing.Size(46, 80)
+        Me.LabelPic15.TabIndex = 32
         '
         'WinDocky
         '
@@ -319,4 +455,19 @@ Partial Class WinDocky
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As Label
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents LabelPic1 As Label
+    Friend WithEvents LabelPic15 As Label
+    Friend WithEvents LabelPic14 As Label
+    Friend WithEvents LabelPic13 As Label
+    Friend WithEvents LabelPic12 As Label
+    Friend WithEvents LabelPic11 As Label
+    Friend WithEvents LabelPic10 As Label
+    Friend WithEvents LabelPic9 As Label
+    Friend WithEvents LabelPic8 As Label
+    Friend WithEvents LabelPic7 As Label
+    Friend WithEvents LabelPic6 As Label
+    Friend WithEvents LabelPic5 As Label
+    Friend WithEvents LabelPic4 As Label
+    Friend WithEvents LabelPic3 As Label
+    Friend WithEvents LabelPic2 As Label
 End Class

@@ -9,11 +9,12 @@ Imports Microsoft.Win32
 Public Class WinDocky
 
     'WinDocky
-
+    'lord.marte@gmail.com
     '21-03-2024
     'Crea un dock sullo sfondo dello schermo in Stile Apple. E' necessaria un'icona o immagine.
     'This code and program are licensed to GNU General Public License.
-
+    'https://www.neowin.net/forum/topic/580258-c-get-path-of-start-menu-programs-all-users/
+    'https://stackoverflow.com/questions/5506811/right-click-menu-options
 
     Dim mouse_move As System.Drawing.Point
     Dim toggle_preferences As Boolean = False
@@ -24,7 +25,7 @@ Public Class WinDocky
     Dim windocky_programma As String = ""
     Dim windocky_icona As String = ""
     'Colo over icone WinDocky
-    Dim color_over As Color = Color.White
+    Dim color_over As Color = Color.FromArgb(255, 128, 128)
     Dim color_leave As Color = Color.FromArgb(64, 64, 64)
 
 
@@ -1417,123 +1418,123 @@ Public Class WinDocky
     End Sub
 
     Private Sub PictureBox1_MouseHover(sender As Object, e As EventArgs) Handles PictureBox1.MouseHover
-        PictureBox1.BackColor = color_over
+        LabelPic1.BackColor = color_over
     End Sub
 
     Private Sub PictureBox1_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox1.MouseLeave
-        PictureBox1.BackColor = color_leave
+        LabelPic1.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox2_MouseHover(sender As Object, e As EventArgs) Handles PictureBox2.MouseHover
-        PictureBox2.BackColor = color_over
+        LabelPic2.BackColor = color_over
     End Sub
 
     Private Sub PictureBox2_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox2.MouseLeave
-        PictureBox2.BackColor = color_leave
+        LabelPic2.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox3_MouseHover(sender As Object, e As EventArgs) Handles PictureBox3.MouseHover
-        PictureBox3.BackColor = color_over
+        LabelPic3.BackColor = color_over
     End Sub
 
     Private Sub PictureBox3_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox3.MouseLeave
-        PictureBox3.BackColor = color_leave
+        LabelPic3.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox4_MouseHover(sender As Object, e As EventArgs) Handles PictureBox4.MouseHover
-        PictureBox4.BackColor = color_over
+        LabelPic4.BackColor = color_over
     End Sub
 
     Private Sub PictureBox4_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox4.MouseLeave
-        PictureBox4.BackColor = color_leave
+        LabelPic4.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox6_MouseHover(sender As Object, e As EventArgs) Handles PictureBox6.MouseHover
-        PictureBox6.BackColor = color_over
+        LabelPic6.BackColor = color_over
     End Sub
 
     Private Sub PictureBox6_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox6.MouseLeave
-        PictureBox6.BackColor = color_leave
+        LabelPic6.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox5_MouseHover(sender As Object, e As EventArgs) Handles PictureBox5.MouseHover
-        PictureBox5.BackColor = color_over
+        LabelPic5.BackColor = color_over
     End Sub
 
     Private Sub PictureBox5_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox5.MouseLeave
-        PictureBox5.BackColor = color_leave
+        LabelPic5.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox7_MouseHover(sender As Object, e As EventArgs) Handles PictureBox7.MouseHover
-        PictureBox7.BackColor = color_over
+        LabelPic7.BackColor = color_over
     End Sub
 
     Private Sub PictureBox7_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox7.MouseLeave
-        PictureBox7.BackColor = color_leave
+        LabelPic7.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox8_MouseHover(sender As Object, e As EventArgs) Handles PictureBox8.MouseHover
-        PictureBox8.BackColor = color_over
+        LabelPic8.BackColor = color_over
     End Sub
 
     Private Sub PictureBox8_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox8.MouseLeave
-        PictureBox8.BackColor = color_leave
+        LabelPic8.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox9_MouseHover(sender As Object, e As EventArgs) Handles PictureBox9.MouseHover
-        PictureBox9.BackColor = color_over
+        LabelPic9.BackColor = color_over
     End Sub
 
     Private Sub PictureBox9_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox9.MouseLeave
-        PictureBox9.BackColor = color_leave
+        LabelPic9.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox10_MouseHover(sender As Object, e As EventArgs) Handles PictureBox10.MouseHover
-        PictureBox10.BackColor = color_over
+        LabelPic10.BackColor = color_over
     End Sub
 
     Private Sub PictureBox10_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox10.MouseLeave
-        PictureBox10.BackColor = color_leave
+        LabelPic10.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox11_MouseHover(sender As Object, e As EventArgs) Handles PictureBox11.MouseHover
-        PictureBox11.BackColor = color_over
+        LabelPic11.BackColor = color_over
     End Sub
 
     Private Sub PictureBox11_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox11.MouseLeave
-        PictureBox11.BackColor = color_leave
+        LabelPic11.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox12_MouseHover(sender As Object, e As EventArgs) Handles PictureBox12.MouseHover
-        PictureBox12.BackColor = color_over
+        LabelPic12.BackColor = color_over
     End Sub
 
     Private Sub PictureBox12_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox12.MouseLeave
-        PictureBox12.BackColor = color_leave
+        LabelPic12.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox13_MouseHover(sender As Object, e As EventArgs) Handles PictureBox13.MouseHover
-        PictureBox13.BackColor = color_over
+        LabelPic13.BackColor = color_over
     End Sub
 
     Private Sub PictureBox13_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox13.MouseLeave
-        PictureBox13.BackColor = color_leave
+        LabelPic13.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox14_MouseHover(sender As Object, e As EventArgs) Handles PictureBox14.MouseHover
-        PictureBox14.BackColor = color_over
+        LabelPic14.BackColor = color_over
     End Sub
 
     Private Sub PictureBox14_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox14.MouseLeave
-        PictureBox14.BackColor = color_leave
+        LabelPic14.BackColor = color_leave
     End Sub
 
     Private Sub PictureBox15_MouseHover(sender As Object, e As EventArgs) Handles PictureBox15.MouseHover
-        PictureBox15.BackColor = color_over
+        LabelPic15.BackColor = color_over
     End Sub
 
     Private Sub PictureBox15_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox15.MouseLeave
-        PictureBox15.BackColor = color_leave
+        LabelPic15.BackColor = color_leave
     End Sub
 
 
